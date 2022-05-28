@@ -54,7 +54,7 @@ class getData():
         print('Site admin: True')
 
     if json_obj["hireable"] == None:
-        print('Nonhireable')
+        print('Unhireable')
     else:
         print('Hireable')
 
